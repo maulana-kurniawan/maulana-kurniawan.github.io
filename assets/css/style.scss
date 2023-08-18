@@ -1,0 +1,18 @@
+---
+---
+$baseurl: "{{ site.baseurl }}";
+
+@charset "UTF-8";
+@import 'fonts';
+
+@import "libs/normalize";
+@import "libs/devicon";
+@import "libs/fontawesome";
+
+@import 'vars';
+@import 'base';
+@import 'animation';
+@import 'header';
+@import 'about';
+@import 'projects';
+@import 'footer';

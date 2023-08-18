@@ -1,0 +1,143 @@
+#particles-js {
+  background: $primary;
+  display: flex;
+  vertical-align: bottom;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important;
+  }
+}
+
+.header {
+  z-index: 1;
+  text-align: center;
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  @media only screen and (max-width:602px) {
+    width: 80%;
+  }
+
+  .site-title {
+    font-size: 100px;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+
+    @media only screen and (max-width:$cut) {
+      margin: 0;
+      font-size: 50px;
+    }
+  }
+
+  .site-description {
+    font-size: 40px;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+    margin-top: 10px;
+
+    @media only screen and (max-width:$cut) {
+      font-size: 20px;
+    }
+  }
+
+  .header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .icon {
+      color: #fff;
+      font-size: 35px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      width: calc(3rem + 5px);
+      height: calc(3rem + 5px);
+      margin: 5px;
+      border: 3px solid #FFF;
+      border-radius: 50rem;
+      transition: all .7s;
+
+      &:hover {
+        color: $primary;
+        background: #FFF;
+      }
+
+      &:active {
+        color: $primary;
+        background: #FFF;
+      }
+
+      @media only screen and (max-width:$cut) {
+        font-size: 27px;
+        width: calc(2.6rem + 3px);
+        height: calc(2.6rem + 3px);
+      }
+    }
+  }
+
+  .header-links {
+    margin-top: 10px;
+
+    .link {
+      color: #FFF;
+      text-decoration: none;
+      font-size: 15px;
+      margin: 10px;
+
+      @media only screen and (min-width:$cut) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.down {
+  color: #FFF;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+
+  .icon {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+    -webkit-animation: pulse 1.3s infinite;
+    animation: pulse 1.3s infinite;
+
+    &:hover {
+      color: rgb(201, 200, 200);
+    }
+
+    &:active {
+      color: rgb(201, 200, 200);
+    }
+  }
+}

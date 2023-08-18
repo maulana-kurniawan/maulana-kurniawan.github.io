@@ -1,0 +1,78 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+
+  .user {
+    text-align: center;
+
+    h1 {
+      font-size: 40px;
+
+      @media only screen and (max-width: $cut) {
+        font-size: 35px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+
+      @media only screen and (max-width: $cut) {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .user-data {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+    @media only screen and (max-width: $cut) {
+      flex-wrap: wrap;
+      gap: 0px;
+    }
+  }
+
+  .user-details {
+    flex-basis: 100%;
+
+    h2 {
+      font-size: 35px;
+
+      @media only screen and (max-width: $cut) {
+        font-size: 30px;
+      }
+    }
+
+    .user-expertise {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5em;
+    }
+
+    span {
+      margin: 5px;
+      font-size: 60px;
+
+      @media only screen and (max-width: $cut) {
+        font-size: 50px;
+      }
+    }
+
+    .desc {
+      margin: 10px;
+      font-size: 16px;
+
+      @media only screen and (max-width: $cut) {
+        font-size: 13px;
+      }
+    }
+  }
+}
