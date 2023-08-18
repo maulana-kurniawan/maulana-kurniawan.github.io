@@ -6,5 +6,28 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+  {% assign favicons_path = '/assets/img/favicons' | relative_url %}
+  <link rel="icon" type="image/png" href="{{ favicons_path }}/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="{{ favicons_path }}/favicon.svg" />
+  <link rel="shortcut icon" href="{{ favicons_path }}/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ favicons_path }}/apple-touch-icon.png" />
+
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.banner | absolute_url }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ '/assets/img/banner/banner.png' | absolute_url }}">
+  <meta name="twitter:url" content="{{ site.url }}">
+  <link rel="manifest" href="{{ favicons_path }}/site.webmanifest" />
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>

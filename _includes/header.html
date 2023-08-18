@@ -1,19 +1,71 @@
+{% assign data = site.data.data %}
 <div id="particles-js">
   <div class="header">
-      <h1>
-        <span class="site-title">{{site.username}}</span>
-        <span class="site-description">{{site.user_title}}</span>
-      </h1>
-      <div class="header-icons">
-        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-      </div>
-      <div class="header-links">
-        <a class="link" href="#about" data-scroll>About Me</a>
-        <a class="link" href="#projects" data-scroll>Projects</a>
-      </div>
+    <h1>
+      <span class="site-title">{{ site.user_name }}</span>
+      <span class="site-description">{{ site.user_title }}</span>
+    </h1>
+    <div class="header-icons">
+      {% if site.email %}
+      <a aria-label="Email" href="mailto:{{ site.email }}">
+          <i class="icon fa fa-fw fa-envelope"></i>
+      </a>
+      {% endif %}
+      {% if site.linkedin %}
+      <a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}">
+          <i class="icon fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.github %}
+      <a aria-label="GitHub" target="_blank" href="https://github.com/{{ site.github }}">
+          <i class="icon fab fa-fw fa-github" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.gitlab %}
+      <a aria-label="GitLab" target="_blank" href="https://gitlab.com/{{ site.gitlab }}">
+          <i class="icon fab fa-fw fa-gitlab" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.facebook %}
+      <a aria-label="Facebook" target="_blank" href="https://facebook.com/{{ site.facebook }}">
+          <i class="icon fab fa-fw fa-facebook-f" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.instagram %}
+      <a aria-label="Instagram" target="_blank" href="https://instagram.com/{{ site.instagram }}">
+          <i class="icon fab fa-fw fa-instagram" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.threads %}
+      <a aria-label="Threads" target="_blank" href="https://threads.net/@{{ site.threads }}">
+          <i class="icon fab fa-fw fa-threads" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.twitter %}
+      <a aria-label="Twitter" target="_blank" href="https://twitter.com/{{ site.twitter }}">
+          <i class="icon fab fa-fw fa-x-twitter" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.telegram %}
+      <a aria-label="Telegram" target="_blank" href="https://t.me/{{ site.telegram }}">
+          <i class="icon fab fa-fw fa-telegram" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.discord %}
+      <a aria-label="Discord" target="_blank" href="https://discordapp.com/users/{{ site.discord }}">
+          <i class="icon fab fa-fw fa-discord" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+      {% if site.tiktok %}
+      <a aria-label="TikTok" target="_blank" href="https://tiktok.com/@{{ site.tiktok }}">
+          <i class="icon fab fa-fw fa-tiktok" aria-hidden="true"></i>
+      </a>
+      {% endif %}
+    </div>
+    <div class="header-links">
+      <a class="link" href="#about" data-scroll>{{ data.about }}</a>
+      <a class="link" href="#projects" data-scroll>{{ data.project.title }}</a>
+    </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-fw fa-chevron-down" aria-hidden="true"></i></a>
 </div>
