@@ -1,0 +1,33 @@
+# This data will be displayed after the first page
+about: Skills
+project:
+  title: Projects
+  description: "Here is a list of projects i have worked on or contributed to:"
+expertises:
+  title: Skills
+  description: "The following are my skills, including:"
+  content:
+    - title: Basic Web
+      icon:
+        first: html5
+        second: css3
+        third: javascript
+      description: |
+        Understanding the basics of building websites, from HTML, CSS and JavaScript.
+    - title: PHP & JS
+      icon:
+        first: laravel
+        second: codeigniter
+        third: react
+        fourth: nextjs
+      description: |
+        Understanding several popular frameworks, such as Laravel, CodeIgniter3 (PHP), React JS, and Next JS (JavaScript).
+    - title: Tools
+      icon:
+        first: git
+        second: gitHub
+        third: bash
+        fourth: linux
+      description: |
+        Familiar with using Git and GitHub for collaboration and project management. I am also familiar with basic commands in the terminal (CLI)
+        and the Linux system.
