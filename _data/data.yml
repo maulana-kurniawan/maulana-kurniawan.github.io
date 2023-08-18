@@ -1,0 +1,32 @@
+# This data will displayed after the first page
+about: About
+project:
+  title: Projects
+  description: "Project that i worked on, contributed, involved or already finished :"
+expertises:
+  title: Skills
+  description: "Here are the skills that i'm good at :"
+  content:
+    - title: Web Basic
+      icon:
+        first: html5
+        second: css3
+        third: javascript
+      description: |
+        Understand the basic components of building a website using HTML, CSS and JavaScript.
+    - title: PHP
+      icon:
+        first: php
+        second: codeigniter
+        third: laravel
+      description: |
+        Have some skill in PHP and its frameworks, mainly CodeIgniter 3,
+        and currently learning the Laravel framework.
+    - title: Tools
+      icon:
+        first: git
+        second: github
+        third: bash
+      description: |
+        Know how to use Git and GitHub for collaborating and managing projects.
+        Also can use basic commands from the CLI.
