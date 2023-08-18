@@ -1,29 +1,39 @@
-<div class="user-details">
-  <h1> Featured Projects </h1>
+{% assign data = site.data.data %}
+<div class="projects">
+  <h1>{{ data.project.title }}</h1>
+  <p>{{ data.project.description }}</p>
 </div>
-<div class="user-projects">
-  <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+{% for project in site.projects %}
+{% assign mod = forloop.index | modulo: 2 %}
+{% if mod == 0 %}
+<div class="user-projects right">
+  <div class="contents">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.excerpt }}</p>
+    {% if project.link %}
+    <div class="link">
+      <a class="project-link" target="_blank" href="{{ project.link }}">Check Here</a>
+    </div>
+    {% endif %}
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <img alt="{{ project.title }}" src="{{ project.image | relative_url }}" />
   </div>
 </div>
+{% else %}
 <div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+  <div class="contents">
+    <img alt="{{ project.title }}" src="{{ project.image | relative_url }}" />
   </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+  <div class="contents">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.excerpt }}</p>
+    {% if project.link %}
+    <div class="link">
+      <a class="project-link" target="_blank" href="{{ project.link }}">Check Here</a>
+    </div>
+    {% endif %}
   </div>
 </div>
+{% endif %}
+{% endfor %}
