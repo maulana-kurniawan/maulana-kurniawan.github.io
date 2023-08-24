@@ -1,0 +1,163 @@
+/**
+ * @license
+ *
+ * Font Family: Supreme
+ * Designed by: Jérémie Hornus, Ilya Naumoff
+ * URL: https://www.fontshare.com/fonts/supreme
+ * © 2023 Indian Type Foundry
+ *
+*/
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Thin.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Thin.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-ThinItalic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-ThinItalic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Extralight.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Extralight.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Extralight.ttf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-ExtralightItalic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-ExtralightItalic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-ExtralightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Light.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Light.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-LightItalic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-LightItalic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Regular.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Regular.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Italic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Italic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Medium.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Medium.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-MediumItalic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-MediumItalic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Bold.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Bold.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-BoldItalic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-BoldItalic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-Extrabold.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Extrabold.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-Extrabold.ttf") format("truetype");
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Supreme";
+    src:
+        url($baseurl + "/assets/fonts/supreme/Supreme-ExtraboldItalic.woff2") format("woff2"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-ExtraboldItalic.woff") format("woff"),
+        url($baseurl + "/assets/fonts/supreme/Supreme-ExtraboldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+}
