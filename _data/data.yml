@@ -13,15 +13,15 @@ expertises:
         second: css3
         third: javascript
       description: |
-        Understand the basic components of building a website using HTML, CSS and JavaScript.
+        Understand the basic components of building a website using HTML, CSS and JavaScript (and its libraries).
     - title: PHP
       icon:
         first: php
         second: codeigniter
         third: laravel
       description: |
-        Have some skill in PHP and its frameworks, mainly CodeIgniter 3,
-        and currently learning the Laravel framework.
+        Have some skill in PHP and its frameworks like CodeIgniter 3,
+        and Laravel.
     - title: Tools
       icon:
         first: git
