@@ -20,7 +20,7 @@ expertises:
         second: codeigniter
         third: laravel
       description: |
-        Have some skill in PHP and its frameworks like CodeIgniter 3, and Laravel.
+        Have some skill in PHP and its frameworks like CodeIgniter 3 and Laravel.
     - title: Tools
       icon:
         first: git
