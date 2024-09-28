@@ -17,13 +17,13 @@
     {% endif %}
   </div>
   <div class="contents">
-    <img alt="{{ project.title }}" src="{{ project.image | relative_url }}" />
+    <img alt="{{ project.title }}" src="{{ project.image | absolute_url }}" />
   </div>
 </div>
 {% else %}
 <div class="user-projects">
   <div class="contents">
-    <img alt="{{ project.title }}" src="{{ project.image | relative_url }}" />
+    <img alt="{{ project.title }}" src="{{ project.image | absolute_url }}" />
   </div>
   <div class="contents">
     <h3>{{ project.title }}</h3>
