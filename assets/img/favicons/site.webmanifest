@@ -1,7 +1,7 @@
 ---
 ---
 
-{% assign favicons_path = '/assets/img/favicons' | relative_url %}
+{% assign favicons_path = '/assets/img/favicons' | absolute_url %}
 
 {
     "name": "",
