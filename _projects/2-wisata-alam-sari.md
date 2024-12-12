@@ -1,7 +1,7 @@
 ---
 image: /assets/img/projects/wisataalamsari.png
-title: Wisata Alam Sari Landing Page
+title: Landing Page Wisata Alam Sari
 link: https://wisataalamsari.vercel.app
 ---
 
-The landing page that i created with [Sandi Nurhadiana](https://github.com/sandinurhadiana) for our KKN contribution on April 2022, to showcases the [Alam Sari](https://instagram.com/wisata_alam_sari) tourist spot in Neglasari village, Jatiwaras, Tasikmalaya.
+Landing Page yang saya buat dengan [Sandi Nurhadiana](https://github.com/sandinurhadiana) untuk kontribusi KKN kami pada bulan April 2022, untuk menampilkan tempat wisata [Alam Sari](https://instagram.com/taruna_sari1984) di desa Neglasari, Kecamatan Jatiwaras, Kabupaten Tasikmalaya.
