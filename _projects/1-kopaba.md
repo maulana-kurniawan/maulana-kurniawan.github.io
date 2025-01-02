@@ -1,6 +1,7 @@
 ---
 image: /assets/img/projects/kopaba.png
 title: Landing Page KOPABA
+dates: 10/2024
 link: https://kopaba.co.id
 ---
 

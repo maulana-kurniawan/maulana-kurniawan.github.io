@@ -1,6 +1,7 @@
 ---
 image: /assets/img/projects/tamu.png
 title: Buku Tamu
+dates: 11/2022
 link: https://tamu.smkn1ciamis.id
 ---
 
