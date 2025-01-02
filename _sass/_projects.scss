@@ -46,6 +46,8 @@
 
       h3 {
         font-size: 30px;
+        display: flex;
+        justify-content: space-between;
 
         @media only screen and (max-width: $cut) {
           font-size: 25px;
