@@ -9,15 +9,11 @@
   <div class="user-details">
     <h2>{{ expertise.title }}</h2>
     <div class="user-expertise">
-      {% if expertise.icon.first %}
-      <span class="devicon-{{ expertise.icon.first }}-plain colored"></span>
+      {% for icon in expertise.icon %}
+      {% if icon[1] %}
+      <span class="devicon-{{ icon[1] }}-plain colored"></span>
       {% endif %}
-      {% if expertise.icon.second %}
-      <span class="devicon-{{ expertise.icon.second }}-plain colored"></span>
-      {% endif %}
-      {% if expertise.icon.third %}
-      <span class="devicon-{{ expertise.icon.third }}-plain colored"></span>
-      {% endif %}
+      {% endfor %}
     </div>
     <p class="desc">{{ expertise.description }}</p>
   </div>
