@@ -2,31 +2,37 @@
 about: Tentang
 project:
   title: Proyek
-  description: "Proyek yang saya kerjakan, ikut berkontribusi, atau yang sudah selesai:"
+  description: 'Proyek yang saya kerjakan, ikut berkontribusi, atau yang sudah selesai:'
 expertises:
   title: Keterampilan
-  description: "Berikut ini adalah keterampilan yang saya kuasai:"
+  description: 'Berikut ini adalah keterampilan yang saya kuasai:'
   content:
-    - title: Web Dasar
+    - title: Web Basic
       icon:
         first: html5
         second: css3
         third: javascript
+        fourth: php
+        fifth:
       description: |
-        Memahami komponen dasar dalam membangun aplikasi berbasis web menggunakan HTML, CSS, JavaScript, dan library-nya.
-    - title: PHP
+        Memahami komponen dasar dalam pengembangan aplikasi berbasis web, termasuk HTML, CSS (SASS/SCSS), JavaScript, dan PHP.
+    - title: Framework & Libraries
       icon:
-        first: php
-        second: codeigniter
+        first: react
+        second: nextjs
         third: laravel
+        fourth: codeigniter
+        fifth: jQuery
       description: |
-        Memiliki keahlian dalam PHP dan framework-nya seperti CodeIgniter 3 dan Laravel.
+        Menguasai framework atau library JavaScript dan PHP, seperti React, Next.js, Laravel, serta CodeIgniter 3.
     - title: Tools
       icon:
         first: git
         second: github
         third: bash
+        fourth: mysql
+        fifth: postgresql
       description: |
-        Mengetahui cara menggunakan Git dan GitHub untuk berkolaborasi dan mengelola proyek.
-        Juga dapat menggunakan perintah dasar dari command line interface.
+        Memiliki pengetahuan tentang penggunaan Git dan GitHub untuk kolaborasi serta pengelolaan proyek.
+        Memahami database MySQL dan PostgreSQL, serta mampu menggunakan perintah dasar pada command line interface.
 check_button: Cek disini
