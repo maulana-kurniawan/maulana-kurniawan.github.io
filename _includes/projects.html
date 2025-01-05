@@ -8,11 +8,12 @@
 {% if mod == 0 %}
 <div class="user-projects right">
   <div class="contents">
-    <h3>{{ project.title }}
-      <span class="project-date" style="color: gray;">
-        ({{ project.dates | date: "%B %Y" }})
-      </span>
-    </h3>
+    <span>
+      <h3>{{ project.title }}</h3>
+      <h4>
+        {{ project.dates | date: "%B %Y" }}
+      </h4>
+    </span>
     <p>{{ project.excerpt }}</p>
     {% if project.link %}
     <div class="link">
@@ -30,11 +31,12 @@
     <img alt="{{ project.title }}" src="{{ project.image | absolute_url }}" />
   </div>
   <div class="contents">
-    <h3>{{ project.title }}
-      <span class="project-date" style="color: gray;">
-        ({{ project.dates | date: "%B %Y" }})
-      </span>
-    </h3>
+    <span>
+      <h3>{{ project.title }}</h3>
+      <h4>
+        {{ project.dates | date: "%B %Y" }}
+      </h4>
+    </span>
     <p>{{ project.excerpt }}</p>
     {% if project.link %}
     <div class="link">
