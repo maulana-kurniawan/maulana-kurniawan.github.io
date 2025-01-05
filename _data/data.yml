@@ -16,7 +16,7 @@ expertises:
         fifth:
       description: |
         Memahami komponen dasar dalam pengembangan aplikasi berbasis web, termasuk HTML, CSS (SASS/SCSS), JavaScript, dan PHP.
-    - title: Framework & Libraries
+    - title: Framework / Library
       icon:
         first: react
         second: nextjs
