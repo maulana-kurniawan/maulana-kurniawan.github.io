@@ -33,6 +33,6 @@ expertises:
         fourth: mysql
         fifth: postgresql
       description: |
-        Memiliki pengetahuan tentang penggunaan Git dan GitHub untuk kolaborasi serta pengelolaan proyek.
-        Memahami database MySQL dan PostgreSQL, serta mampu menggunakan perintah dasar pada command line interface.
+        Memiliki pengetahuan tentang penggunaan Git dan GitHub, database MySQL dan PostgreSQL, dan perintah dasar
+        pada command line interface.
 check_button: Cek disini
