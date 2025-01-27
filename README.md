@@ -76,19 +76,20 @@ In the next step, the webpage will show all usage scenarios. You can keep the de
 
 ### Download & Replace
 
-Download the generated package, unzip and delete the following two from the extracted files:
+Download the generated package, unzip and delete the following file from the archive:
 
-- `browserconfig.xml`
 - `site.webmanifest`
 
-And then copy the remaining image files (`.png` and `.ico`) to cover the original files in the directory assets/img/favicons/ of your Jekyll site. If your Jekyll site doesn’t have this directory yet, just create one.
+And then copy the remaining image files (`.ico`, `.png` and `.svg`) to cover the original files in the directory assets/img/favicons/ of your Jekyll site. If your Jekyll site doesn’t have this directory yet, just create one.
 
 The following table will help you understand the changes to the favicon files:
 
-| File(s) |  From Online Tool  | From Local  |
-|  :---:  |        :---:       |    :---:    |
-| `*.png` | :heavy_check_mark: |     :x:     |
-| `*.ico` | :heavy_check_mark: |     :x:     |
+|       File(s)       |  From Online Tool  |     From Local     |
+| :-----------------: | :----------------: | :----------------: |
+|       `*.ico`       | :heavy_check_mark: |        :x:         |
+|       `*.png`       | :heavy_check_mark: |        :x:         |
+| `*site.webmanifest` |        :x:         | :heavy_check_mark: |
+|       `*.svg`       | :heavy_check_mark: |        :x:         |
 
 > :heavy_check_mark: means keep, :x: means delete.
 
