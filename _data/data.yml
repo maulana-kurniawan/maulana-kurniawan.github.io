@@ -1,11 +1,11 @@
 # This data will displayed after the first page
-about: About
+about: Tentang
 project:
   title: Projects
-  description: "Project that i worked on, contributed, involved or already finished :"
+  description: "Proyek yang saya kerjakan, berkontribusi, terlibat, atau sudah selesai:"
 expertises:
   title: Skills
-  description: "Here are the skills that i'm good at :"
+  description: "Berikut adalah keterampilan yang saya kuasai:"
   content:
     - title: Web Basic
       icon:
@@ -13,20 +13,21 @@ expertises:
         second: css3
         third: javascript
       description: |
-        Understand the basic components of building a website using HTML, CSS and JavaScript.
-    - title: PHP
+        Memahami komponen dasar dalam membangun sebuah situs web menggunakan HTML, CSS, dan JavaScript.
+    - title: PHP & JS
       icon:
-        first: php
-        second: codeigniter
-        third: laravel
+        first: laravel
+        second: nodejs
+        third: react
+        fourth: nextjs
       description: |
-        Have some skill in PHP and its frameworks, mainly CodeIgniter 3,
-        and currently learning the Laravel framework.
+        Memahami library/framework PHP dan JavaScript seperti Laravel, React JS dan Next JS.
     - title: Tools
       icon:
         first: git
         second: github
         third: bash
+        fourth: linux
       description: |
-        Know how to use Git and GitHub for collaborating and managing projects.
-        Also can use basic commands from the CLI.
+        Mengetahui cara menggunakan Git dan GitHub untuk berkolaborasi dan mengelola proyek. Juga dapat menggunakan perintah dasar dari CLI dan
+        bisa mengoperasikan Linux.
