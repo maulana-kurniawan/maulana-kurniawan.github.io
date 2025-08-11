@@ -7,13 +7,11 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% assign favicons_path = '/assets/img/favicons' | relative_url %}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ favicons_path }}/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ favicons_path }}/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ favicons_path }}/favicon-16x16.png">
-  <link rel="manifest" href="{{ favicons_path }}/site.webmanifest">
-  <link rel="mask-icon" href="{{ favicons_path }}/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  
+  <link rel="icon" type="image/png" href="{{ favicons_path }}/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="{{ favicons_path }}/favicon.svg" />
+  <link rel="shortcut icon" href="{{ favicons_path }}/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ favicons_path }}/apple-touch-icon.png" />
+  <link rel="manifest" href="{{ favicons_path }}/site.webmanifest" />
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
