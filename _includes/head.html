@@ -11,6 +11,18 @@
   <link rel="icon" type="image/svg+xml" href="{{ favicons_path }}/favicon.svg" />
   <link rel="shortcut icon" href="{{ favicons_path }}/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="{{ favicons_path }}/apple-touch-icon.png" />
+
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ '/assets/img/banner/banner.png' | absolute_url }}">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ '/assets/img/banner/banner.png' | absolute_url }}">
+  <meta name="twitter:url" content="{{ site.url }}">
   <link rel="manifest" href="{{ favicons_path }}/site.webmanifest" />
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
