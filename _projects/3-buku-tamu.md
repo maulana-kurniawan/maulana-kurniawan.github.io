@@ -4,4 +4,4 @@ title: Buku Tamu
 link: https://tamu.smkn1ciamis.id
 ---
 
-Aplikasi buku tamu berbasis web, beserta panel admin, yang dibangun menggunakan CodeIgniter 3. Proyek ini dibuat untuk SMKN 1 Ciamis sebagai bagian dari tugas KKI (Kuliah Kerja Industri) kami. Proyek ini dibuat saat saya dan [Anggi Prayoga](https://github.com/anggiprayoga9) sedang menjalani KKI di sana.
+Selama Kuliah Kerja Industri (KKI) di SMKN 1 Ciamis, saya dan [Anggi Prayoga](https://github.com/anggiprayoga9) mengembangkan aplikasi buku tamu berbasis web. Aplikasi ini dilengkapi dengan panel admin untuk manajemen data tamu, catatan kunjungan, dan pembuatan surat izin untuk guru dan siswa. Proyek ini dibangun dengan framework CodeIgniter 3.

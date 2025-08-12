@@ -1,11 +1,11 @@
 # This data will displayed after the first page
-about: Tentang
+about: Skills
 project:
   title: Projects
-  description: "Proyek yang saya kerjakan, berkontribusi, terlibat, atau sudah selesai:"
+  description: "Berikut adalah daftar proyek yang saya kerjakan atau berkontribusi di dalamnya:"
 expertises:
   title: Skills
-  description: "Berikut adalah keterampilan yang saya kuasai:"
+  description: "Berikut adalah keahlian yang saya miliki:"
   content:
     - title: Web Basic
       icon:
@@ -13,7 +13,7 @@ expertises:
         second: css3
         third: javascript
       description: |
-        Memahami komponen dasar dalam membangun sebuah situs web menggunakan HTML, CSS, dan JavaScript.
+        Saya menguasai dasar-dasar untuk membangun website, mulai dari HTML, CSS, sampai JavaScript.
     - title: PHP & JS
       icon:
         first: laravel
@@ -21,7 +21,7 @@ expertises:
         third: react
         fourth: nextjs
       description: |
-        Memahami library/framework PHP dan JavaScript seperti Laravel, React JS dan Next JS.
+        Berpengalaman dengan beberapa framework populer, seperti Laravel (PHP), React JS, dan Next JS (JavaScript).
     - title: Tools
       icon:
         first: git
@@ -29,5 +29,5 @@ expertises:
         third: bash
         fourth: linux
       description: |
-        Mengetahui cara menggunakan Git dan GitHub untuk berkolaborasi dan mengelola proyek. Juga dapat menggunakan perintah dasar dari CLI dan
-        bisa mengoperasikan Linux.
+        Saya terbiasa menggunakan Git dan GitHub untuk kerja tim dan mengelola proyek. Saya juga familiar dengan perintah dasar di terminal (CLI)
+        dan sistem operasi Linux.
