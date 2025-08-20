@@ -3,6 +3,7 @@ title: Maulana Kurniawan's Portfolio
 description: A portfolio site about Maulana Kurniawan.
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: https://maulana-kurniawan.github.io # the base hostname & protocol for your site e.g. https://maulana-kurniawan.github.io
+banner: '/assets/img/banner/banner.png' # banner image location path for url preview in social media
 
 # User settings
 user_name: Maulana Kurniawan
