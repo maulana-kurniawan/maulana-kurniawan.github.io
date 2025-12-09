@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/gemoyblog.png
+image: /assets/img/projects/gemoyblog.webp
 title: Blog Gemoy
 link: https://gemoy-blog.biz.id
 ---

@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/firebase.png
+image: /assets/img/projects/firebase.webp
 title: Web Admin Presensi
 ---
 

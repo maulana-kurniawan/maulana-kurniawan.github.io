@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/crewmans.png
+image: /assets/img/projects/crewmans.webp
 title: Crewmans
 ---
 

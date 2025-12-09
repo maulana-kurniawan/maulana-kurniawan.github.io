@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/wisataalamsari.png
+image: /assets/img/projects/wisataalamsari.webp
 title: Wisata Alam Sari Landing Page
 link: https://wisataalamsari.vercel.app
 ---

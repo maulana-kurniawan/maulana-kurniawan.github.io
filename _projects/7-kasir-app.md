@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/kasir.png
+image: /assets/img/projects/kasir.webp
 title: Kasir App
 ---
 

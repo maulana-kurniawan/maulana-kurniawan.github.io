@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/kogi.png
+image: /assets/img/projects/kogi.webp
 title: KOGI Website
 link: https://kogibali2025.com
 ---

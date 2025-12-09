@@ -1,5 +1,5 @@
 ---
-image: /assets/img/projects/tamu.png
+image: /assets/img/projects/tamu.webp
 title: Buku Tamu
 link: https://tamu.smkn1ciamis.id
 ---
