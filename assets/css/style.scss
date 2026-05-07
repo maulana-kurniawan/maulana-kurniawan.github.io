@@ -5,6 +5,7 @@ $baseurl: "{{ site.baseurl }}";
 @charset "UTF-8";
 
 @import "libs/normalize";
+@import "libs/fontface";
 @import "libs/devicon";
 @import "libs/fontawesome";
 

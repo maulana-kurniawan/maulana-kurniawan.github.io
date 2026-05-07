@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Mona Sans VF';
+  src:
+    url($baseurl + '/assets/fonts/mona-sans/MonaSansVF[wdth,wght,opsz,ital].woff2') format('woff2 supports variations'),
+    url($baseurl + '/assets/fonts/mona-sans/MonaSansVF[wdth,wght,opsz,ital].woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-optical-sizing: auto;
+}
